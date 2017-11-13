@@ -19,7 +19,7 @@ boost_python_lib_dir     = [ '/usr/lib64' ]
 #
 # Name of the Boost Python library in boost_python_lib_dir.
 # boost_python_lib         = [ 'boost_python-mt' ]
-boost_python_lib         = [ 'boost_python' ]
+boost_python_lib         = [ 'boost_python-py34' ]
 # END USER SETTINGS
 # ---------------------------------------------------------------------
 # See http://docs.python.org/distutils/setupscript.html

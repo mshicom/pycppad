@@ -689,7 +689,10 @@ BOOST_PYTHON_MODULE(cppad_)
 	using pycppad::ADFun_AD_double;
 
 	// some kind of hack to get numpy working  ---------------------------
-	import_array(); 
+    if(PyArray_API == NULL)
+    {
+        _import_array(); 
+    }
 	pycppad::vec2array_import_array();
 	array::set_module_and_type("numpy", "ndarray");
 	// --------------------------------------------------------------------

@@ -23,14 +23,14 @@ for name in list_of_globals :
 		except AssertionError :
 			ok = False
 		if ok : 
-			print "OK:    %s" % name[13:]
+			print("OK:    %s" % name[13:])
 			number_ok = number_ok + 1
 		else : 
-			print "Error: %s" % name[13:]
+			print("Error: %s" % name[13:])
 			number_fail = number_fail + 1
 if number_fail == 0 : 
-	print "All %d tests passed" % number_ok
+	print("All %d tests passed" % number_ok)
 	sys.exit(0)
 else :
-	print "%d tests failed" % number_fail 
+	print("%d tests failed" % number_fail )
 	sys.exit(1)

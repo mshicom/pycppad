@@ -41,5 +41,5 @@ array vec2array(AD_AD_double_vec& vec)
 }
 // ========================================================================
 void vec2array_import_array(void)
-{	import_array(); }
+{	_import_array(); }
 } // end namespace pycppad

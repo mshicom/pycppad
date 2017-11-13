@@ -535,5 +535,5 @@ namespace pycppad {
 	// -------------------------------------------------------------
 
 	void adfun_avoid_warning_that_import_array_not_used(void)
-	{	import_array(); }
+	{	_import_array(); }
 }
