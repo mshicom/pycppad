@@ -7,8 +7,8 @@ from numpy.distutils.misc_util import get_numpy_include_dirs
 # The code below is included verbatim in omh/install.omh
 # BEGIN USER SETTINGS
 # Directory where CppAD include files are located
-# cppad_include_dir        = [ '/usr/include' ]
-cppad_include_dir        = [ os.environ['HOME'] + '/prefix/cppad/include' ]
+cppad_include_dir        = [ '/usr/include' ]
+# cppad_include_dir        = [ os.environ['HOME'] + '/prefix/cppad/include' ]
 #
 # Directory where Boost Python include files are located
 boost_python_include_dir = [ '/usr/include' ]

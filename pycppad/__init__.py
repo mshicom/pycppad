@@ -149,8 +149,8 @@ def value(a_x) :
     msg += 'or an array of a_float or a2float'
     raise NotImplementedError(msg)
 
-from adfun import *
-from runge_kutta_4 import *
+from pycppad.adfun import *
+from pycppad.runge_kutta_4 import *
 from numpy import arccos
 from numpy import arcsin
 from numpy import arctan
